@@ -9,6 +9,9 @@
     </div>
     <footer>
       <?php wp_link_pages(['before' => '<nav class="page-nav"><p>' . __('Pages:', 'sage'), 'after' => '</p></nav>']); ?>
+      <?php foreach(get_the_category() as $category) : ?>
+        <?php echo do_shortcode('[add_posts category='. $category->slug .' show=4]'); ?>
+      <?php endforeach; ?>
     </footer>
     <?php comments_template('/templates/comments.php'); ?>
   </article>
