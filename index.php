@@ -1,5 +1,11 @@
 <?php get_template_part('templates/page', 'header'); ?>
 
+<?php if (is_front_page()) : ?>
+<div class="frontpage-header">
+  <h2>Frontpage</h2>
+</div>
+<?php endif; ?>
+
 <?php if (!have_posts()) : ?>
   <div class="alert alert-warning">
     <?php _e('Sorry, no results were found.', 'sage'); ?>
