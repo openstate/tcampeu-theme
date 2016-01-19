@@ -6,4 +6,55 @@ $main-sm-columns:       12;
 $sidebar-sm-columns:    4;
 
 // Colors
-$brand-primary:         #27ae60;
+//$brand-primary:         #27ae60;
+
+
+//== Colors
+//
+//## brand colors for use across the website.
+
+$yellow:            #ffcc00 !default; 
+$yellow-light:      lighten(#ffcc00, 50%) !default; 
+
+$red:               #ec2a2f !default; 
+$red-light:         lighten(#ec2a2f, 50%) !default; 
+
+$green:             #09d35f !default; 
+$green-light:       lighten(#09d35f, 50%) !default; 
+
+$blue:              #0b4ea2 !default; 
+$blue-light:        lighten(#0b4ea2, 50%) !default; 
+
+$white:             #ffffff !default; 
+$grey-light:        #f2f2f2 !default; 
+$grey-dark:         #d4d4d4 !default; 
+$black:             #000000 !default; 
+
+// We need to see how we will deal with the default colors 
+
+$brand-primary:         #428bca !default;
+$brand-success:         #5cb85c !default;
+$brand-info:            #5bc0de !default;
+$brand-warning:         #f0ad4e !default;
+$brand-danger:          #d9534f !default;
+
+//== Typography
+//
+//## Font, line-height, and color for body text, headings, and more.
+
+$font-family-sans-serif:  "Lato", Helvetica, Arial, sans-serif !default;
+$font-family-serif:       "Roboto slab", "Times New Roman", Times, serif !default;
+//** Default monospace fonts for `<code>`, `<kbd>`, and `<pre>`.
+$font-family-monospace:    $font-family-serif , "Courier New", monospace !default;
+$font-family-base:        $font-family-sans-serif !default;
+
+// $font-size-base:          14px !default;
+// $font-size-large:         ceil(($font-size-base * 1.25)) !default; // ~18px
+// $font-size-small:         ceil(($font-size-base * 0.85)) !default; // ~12px
+
+// $font-size-h1:            floor(($font-size-base * 2.6)) !default; // ~36px
+// $font-size-h2:            floor(($font-size-base * 2.15)) !default; // ~30px
+// $font-size-h3:            ceil(($font-size-base * 1.7)) !default; // ~24px
+// $font-size-h4:            ceil(($font-size-base * 1.25)) !default; // ~18px
+// $font-size-h5:            $font-size-base !default;
+// $font-size-h6:            ceil(($font-size-base * 0.85)) !default; // ~12px
