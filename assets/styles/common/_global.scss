@@ -1,3 +1,66 @@
+body {
+  font-family: $font-family-sans-serif;
+  padding-top: 50px;
+  padding-bottom: 20px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: $font-family-serif;
+  font-weight: bold;
+}
+
+p {
+  text-align: left;
+}
+
 .display-inline {
   display: inline;
+}
+
+.border-none {
+  border: none;
+}
+
+.bg-white {
+  background-color: white;
+}
+
+.bg-grey-light {
+  background-color: $grey-light;
+}
+
+.bg-green {
+  background-color: $green;
+}
+
+.bg-blue {
+  background-color: $blue;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.text-green {
+  color: $green;
+}
+
+.text-blue {
+  color: $blue;
+}
+
+.bg-pattern-green {
+  background-image: url("../images/patterns-green-background.svg");
+}
+
+.bg-pattern-blue {
+  background-image: url("../images/patterns-blue-background.svg");
+}
+
+.bg-pattern-yellow {
+  background-image: url("../images/patterns-yellow-background.svg");
+}
+
+.font-weight-normal {
+  font-weight: normal;
 }

@@ -1,0 +1,40 @@
+.category-news {
+  h3, h4 {
+    color: $green;
+  }
+}
+
+.category-datablog {
+  h3, h4 {
+    color: $blue;
+  }
+}
+
+.post-type {
+  display: inline-block;
+  color: white;
+  padding: 0 10px;
+  margin-right: 10px;
+}
+
+.post p {
+  padding-bottom: 20px;
+}
+
+.entry-title a:link {
+  color: inherit;
+}
+
+.entry-title a:visited {
+  color: inherit;
+}
+
+.entry-title a:hover {
+  opacity: 0.5;
+  color: inherit;
+}
+
+.entry-title a:active {
+  opacity: 0.7;
+  color: inherit;
+}

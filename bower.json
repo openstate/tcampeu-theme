@@ -8,7 +8,8 @@
   "private": true,
   "dependencies": {
     "bootstrap-sass": "3.3.6",
-    "font-awesome": "fontawesome#~4.5.0"
+    "font-awesome": "fontawesome#~4.5.0",
+    "classic-081711": "https://cdn-images.mailchimp.com/embedcode/classic-081711.css"
   },
   "overrides": {
     "font-awesome": {

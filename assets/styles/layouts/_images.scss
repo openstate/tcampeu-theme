@@ -1,0 +1,27 @@
+.image-green::after {
+  color: transparent;
+  content: " images ";
+  background: url("../images/patterns-green-background.svg");
+  display: block;
+  opacity: 0.8;
+  filter: alpha(opacity=80); /* For IE8 and earlier */
+  width: 100%;
+  height: 40px;
+  z-index: 4;
+  position: relative;
+  top: -30px;
+}
+
+.image-blue::after {
+  color: transparent;
+  content: " images ";
+  background: url("../images/patterns-blue-background.svg");
+  display: block;
+  opacity: 0.8;
+  filter: alpha(opacity=80); /* For IE8 and earlier */
+  width: 100%;
+  height: 40px;
+  z-index: 4;
+  position: relative;
+  top: -30px;
+}

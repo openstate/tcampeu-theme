@@ -1,8 +1,19 @@
-.header-bg {
-  background:         url("../images/witvlak.svg"),
-                      url("../images/patterns-green-background.svg");
-  background-repeat:  no-repeat,
-                      repeat;
+.header-full {
+  background-image: url("../images/patterns-green-background.svg");
+  background-repeat: repeat;
+}
+
+.header-logo {
+  background-image: url("../images/witvlak.svg");
+  background-repeat: no-repeat;
+}
+
+.in li {
+  clear: both;
+}
+
+.collapse li {
+  float: left;
 }
 
 .tceu-header {

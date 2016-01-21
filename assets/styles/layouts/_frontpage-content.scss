@@ -1,0 +1,39 @@
+.big-h1 {
+  font-size: 2.5em;
+  padding: 10px 0;
+}
+
+.frontpage-content-text {
+  font-size: 1.1em;
+  text-align: justify;
+  padding-bottom: 20px;
+  line-height: 200%;
+}
+
+.frontpage-content-icons {
+  padding-bottom: 20px;
+}
+
+.frontpage-content-link {
+  font-size: 1.4em;
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+.frontpage-content-link:link {
+  color: inherit;
+}
+
+.frontpage-content-link:visited {
+  color: inherit;
+}
+
+.frontpage-content-link:hover {
+  opacity: 0.5;
+  color: inherit;
+}
+
+.frontpage-content-link:active {
+  opacity: 0.7;
+  color: inherit;
+}
