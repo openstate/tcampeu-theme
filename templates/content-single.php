@@ -1,6 +1,6 @@
 <div class="container">
   <div class="row">
-    <div class="col-xs-8 col-xs-offset-2">
+    <div class="col-md-8 col-md-offset-2">
       <?php while (have_posts()) : the_post(); ?>
         <article <?php post_class(); ?>>
           <header>
