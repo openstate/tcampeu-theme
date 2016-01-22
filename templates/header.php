@@ -13,22 +13,22 @@
         <div class="row">
           <div class="col-xs-12 bg-white">
             <nav class="nav-primary navbar-default bg-white">
-             <div class="navbar-header">
-               <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-                 <span class="sr-only">Toggle navigation</span>
-                 <span class="icon-bar"></span>
-                 <span class="icon-bar"></span>
-                 <span class="icon-bar"></span>
-               </button>
-             </div>
-             <!-- Collect the nav links, forms, and other content for toggling -->
-             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-               <?php
-               if (has_nav_menu('primary_navigation')) :
-                 wp_nav_menu(['theme_location' => 'primary_navigation', 'menu_class' => 'nav']);
-               endif;
-               ?>
-             </div><!-- /.navbar-collapse -->
+              <div class="navbar-header navbar-fixed-top">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                  <span class="sr-only">Toggle navigation</span>
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+                </button>
+              </div>
+              <!-- Collect the nav links, forms, and other content for toggling -->
+              <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <?php
+                if (has_nav_menu('primary_navigation')) :
+                  wp_nav_menu(['theme_location' => 'primary_navigation', 'menu_class' => 'nav']);
+                endif;
+                ?>
+              </div><!-- /.navbar-collapse -->
             </nav>
           </div>
         </div>
