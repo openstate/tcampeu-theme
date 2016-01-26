@@ -10,11 +10,11 @@
       <div class="row text-green frontpage-content-icons">
         <div class="col-xs-12">
           <div class="col-xs-6 text-green">
-            <i class="fa fa-calendar fa-3x"></i>
+            <span class="icon-basic_calendar icon-size"></span>
             <h3 class="font-weight-normal">June 1</h3>
           </div>
           <div class="col-xs-6">
-            <i class="fa fa-map-marker fa-3x"></i>
+            <span class="icon-basic_geolocalize-05 icon-size"></span>
             <h3 class="font-weight-normal">Amsterdam</h3>
           </div>
         </div>
@@ -39,11 +39,11 @@
       <div class="row text-blue frontpage-content-icons">
         <div class="col-xs-12 text-center">
           <div class="col-xs-6">
-            <i class="fa fa-database fa-3x"></i>
+            <span class="icon-basic_server2 icon-size"></span>
             <h3 class="font-weight-normal">Datasets</h3>
           </div>
           <div class="col-xs-6">
-            <i class="fa fa-rocket fa-3x"></i>
+            <span class="icon-basic_paperplane icon-size"></span>
             <h3 class="font-weight-normal">Submit</h3>
           </div>
         </div>

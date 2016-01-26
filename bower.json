@@ -8,15 +8,22 @@
   "private": true,
   "dependencies": {
     "bootstrap-sass": "3.3.6",
-    "font-awesome": "fontawesome#~4.5.0",
-    "classic-081711": "https://cdn-images.mailchimp.com/embedcode/classic-081711.css"
+    "font-awesome": "~4.5.0",
+    "classic-081711": "https://cdn-images.mailchimp.com/embedcode/classic-081711.css",
+    "linea-io": "~1.0.0"
   },
   "overrides": {
+    "linea-io": {
+      "main": [
+        "./linea.css",
+        "./fonts/*"
+      ]
+    },
     "font-awesome": {
-       "main": [
-         "./scss/font-awesome.scss",
-         "./fonts/*"
-       ]
+      "main": [
+        "./scss/font-awesome.scss",
+        "./fonts/*"
+      ]
     },
     "bootstrap-sass": {
       "main": [
