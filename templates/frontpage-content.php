@@ -34,7 +34,7 @@
     <div class="col-md-4 col-md-offset-2 text-center">
       <h1 class="text-blue big-h1">App Competition</h1>
       <p class="frontpage-content-text">
-        You can join the online App Competition, either by building an application that improves transparency and opens the black box of EU decision-making, or submitting apps that use European open data (e.g. on mobility, public health, education or the environment) to improve the every day lives of Europeans.
+        You can join the online App Competition, either by building an application that improves transparency and opens the black box of EU decision-making, or submitting apps that use European open data (e.g. on mobility, public health, education or the environment) to improve the everyday lives of Europeans.
       </p>
       <div class="row text-blue frontpage-content-icons">
         <div class="col-xs-12 text-center">
