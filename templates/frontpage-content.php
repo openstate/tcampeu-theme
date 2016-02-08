@@ -1,3 +1,16 @@
+<br>
+<br>
+
+<div class="container">
+  <div class="row">
+    <div class="col-md-3 bg-pattern-yellow gif-height"></div>
+    <div class="col-md-6 text-center">
+      <img src="<?= get_template_directory_uri() . '/dist/images/tcampeu_koenders_ama_8_feb.gif'; ?>" alt="Reddit AMA with Dutch MFA Bert Koenders, 8 February 15:45 CET">
+    </div>
+    <div class="col-md-3 bg-pattern-yellow gif-height"></div>
+  </div>
+</div>
+
 <!-- Unconference & App Competition -->
 <div class="container">
   <div class="row">
