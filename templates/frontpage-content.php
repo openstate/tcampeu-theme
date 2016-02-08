@@ -5,7 +5,7 @@
   <div class="row">
     <div class="col-md-3 bg-pattern-yellow gif-height"></div>
     <div class="col-md-6 text-center">
-      <img src="<?= get_template_directory_uri() . '/dist/images/tcampeu_koenders_ama_8_feb.gif'; ?>" alt="Reddit AMA with Dutch MFA Bert Koenders, 8 February 15:45 CET">
+      <a href="http://transparencycamp.eu/2016/02/05/ask-koenders-anything/"><img src="<?= get_template_directory_uri() . '/dist/images/tcampeu_koenders_ama_8_feb.gif'; ?>" alt="Reddit AMA with Dutch MFA Bert Koenders, 8 February 15:45 CET"></a>
     </div>
     <div class="col-md-3 bg-pattern-yellow gif-height"></div>
   </div>
@@ -66,7 +66,7 @@
         <div class="col-xs-5 col-xs-offset-7">
           <div class="row bg-white">
             <div class="col-xs-12 text-blue">
-              <a class="frontpage-content-link" href="app-competition/">Read more</a>
+              <a class="frontpage-content-link" href="/app-competition/">Read more</a>
             </div>
           </div>
         </div>
