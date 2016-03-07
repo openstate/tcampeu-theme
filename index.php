@@ -13,5 +13,3 @@
 <?php endif; ?>
 
 <?php get_template_part('templates/frontpage-posts') ?>
-
-<?php the_posts_navigation(); ?>
