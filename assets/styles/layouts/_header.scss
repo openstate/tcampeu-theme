@@ -8,6 +8,17 @@
   background-repeat: no-repeat;
 }
 
+.header-logo {
+  font-size: 18px;
+}
+
+.current-menu-item, .single-post .menu-item-27 {
+  > a {
+    color: $green;
+    border-bottom: 7px solid $green;
+  }
+}
+
 .in li {
   clear: both;
 }

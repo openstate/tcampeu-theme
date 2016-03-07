@@ -27,7 +27,7 @@
           <br>
         </div><!-- /.navbar-collapse -->
       </nav>
-      <div class="visible-lg-inline col-lg-5 pull-right">
+      <div class="visible-lg-inline col-lg-6 pull-right">
         <br>
         <div class="row">
           <div class="col-xs-12 bg-white">
