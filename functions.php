@@ -26,3 +26,15 @@ foreach ($sage_includes as $file) {
   require_once $filepath;
 }
 unset($file, $filepath);
+
+// Replaces the excerpt "more" text by a link
+function new_excerpt_more($more) {
+  global $post;
+  if (in_category('news')) {
+    return '<a class="moretag" href="' . get_permalink($post->ID) . '"><img src="' . get_template_directory_uri() . '/dist/images/arrow-green-right.svg"></a>';
+  }
+  elseif (in_category('datablog')) {
+    return '<a class="moretag" href="' . get_permalink($post->ID) . '"><img src="' . get_template_directory_uri() . '/dist/images/arrow-blue-right.svg"></a>';
+  }
+}
+add_filter('excerpt_more', 'new_excerpt_more');
