@@ -2,13 +2,13 @@
 <div class="container">
   <div class="row">
     <!-- unconference -->
-    <div class="col-md-4 col-md-offset-1 text-center">
+    <div class="col-md-4 col-md-offset-1">
       <h1 class="text-green big-h1">Unconference</h1>
       <p class="frontpage-content-text">
         The first TransparencyCamp Europe will take place this year in Amsterdam, the Netherlands. This unconference will focus on open data, new technologies and policies that make the EU work for people, stimulate open government and help grasp the workings of the various EU institutions.
       </p>
       <div class="row text-green frontpage-content-icons">
-        <div class="col-xs-12">
+        <div class="col-xs-12 text-center">
           <div class="col-xs-6 text-green">
             <span class="icon-basic_calendar icon-size"></span>
             <h3 class="font-weight-normal">June 1</h3>
@@ -31,7 +31,7 @@
       </div>
     </div>
     <!-- app competition -->
-    <div class="col-md-4 col-md-offset-2 text-center">
+    <div class="col-md-4 col-md-offset-2">
       <h1 class="text-blue big-h1">App Competition</h1>
       <p class="frontpage-content-text">
         You can join the online App Competition, either by building an application that improves transparency and opens the black box of EU decision-making, or submitting apps that use European open data (e.g. on mobility, public health, education or the environment) to improve the everyday lives of Europeans.
