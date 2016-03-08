@@ -1,8 +1,8 @@
 <div class="container bg-grey-light">
   <div class="row">
-    <div class="col-lg-5 col-md-6 col-sm-7 col-xs-8 bg-white">
+    <div class="col-lg-5 col-md-6 col-sm-7 col-xs-8">
       <div class="row">
-        <div class="col-sm-8 col-sm-offset-2 col-xs-12 bg-white">
+        <div class="col-sm-8 col-sm-offset-2 col-xs-12">
           <h2>News &amp; Datablogs</h2>
         </div>
       </div>

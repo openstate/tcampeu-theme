@@ -1,9 +1,4 @@
 <div class="container bg-pattern-yellow">
-  <div class="row">
-    <div class="col-md-5">
-      <h2 class="newsletter-heading">Sign up for our newsletter</h2>
-    </div>
-  </div>
   <br>
   <div class="row">
     <div class="col-sm-6 col-sm-offset-3 bg-white">
