@@ -4,6 +4,7 @@
 
 <br>
 <br>
+<br>
 
 <?php if (!have_posts()) : ?>
   <div class="alert alert-warning">
