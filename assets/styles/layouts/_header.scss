@@ -12,7 +12,10 @@
   font-size: 18px;
 }
 
-.current-menu-item, .single-post .menu-item-27 {
+.current-menu-item,
+.page-template-page-green .menu-item-28,
+.page-template-page-blue .menu-item-26,
+.single-post .menu-item-27 {
   > a {
     color: $green;
     border-bottom: 7px solid $green;
