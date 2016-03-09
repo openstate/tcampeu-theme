@@ -10,5 +10,28 @@
   clear:left;
   font:14px Helvetica,Arial,sans-serif;
 }
+
+#mc-embedded-subscribe-form {
+  padding-left: 0 !important;
+}
+
+.mc-field-group {
+  width: 300px !important;
+  float: left;
+}
+
+#mce-EMAIL {
+  border-top-left-radius: 4px;
+  border-bottom-left-radius: 4px;
+  border-color: $blue !important;
+}
+
+#mc-embedded-subscribe {
+  border-top-left-radius: 0 !important;
+  border-bottom-left-radius: 0 !important;
+  height: 34px !important;
+  background-color: $blue !important;
+  color: white !important;
+}
 /* Add your own MailChimp form style overrides in your site stylesheet or in this style block.
    We recommend moving this block and the preceding CSS link to the HEAD of your HTML file. */
