@@ -1,7 +1,12 @@
 .registration-banner {
   font-size: 24px;
-  line-height: 80px;
   font-family: $font-family-serif;
+  padding-top: 20px;
+  padding-bottom: 20px;
+
+  span {
+    float: right;
+  }
 }
 
 .btn-registration-banner {

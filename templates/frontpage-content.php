@@ -2,7 +2,7 @@
 <div class="container registration-banner bg-grey-light">
   <div class="row">
     <div class="col-md-10 col-md-offset-1">
-      Registrations for the <b>Unconference</b> are now open<span style="float:right"><a href="https://transparencycamp.eu/unconference#register" class="btn btn-registration-banner" role="button">Register&nbsp;&nbsp;&nbsp;<span class="icon-basic_book_pencil"></span></a></span>
+      Registrations for the <b>Unconference</b> are now open<span><a href="https://transparencycamp.eu/unconference#register" class="btn btn-registration-banner" role="button">Register&nbsp;&nbsp;&nbsp;<span class="icon-basic_book_pencil"></span></a></span>
     </div>
   </div>
 </div>
