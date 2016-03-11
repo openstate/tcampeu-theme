@@ -1,6 +1,12 @@
-Sicco: Linea; linea.css font path fix (add `../`) after `git pull` + `bower install --allow-root`, then `gulp`
+[TransparencyCamp Europe](https://transparencycamp.eu/) WordPress theme based on [Sage](https://roots.io/sage/).
 
+Basic installation instructions (check out Sage's [Theme setup](https://github.com/openstate/tcampeu-theme#theme-setup) for instructions on installing `gulp` and `bower`):
+ * Run `git pull` to fetch this repository into your WordPress' `themes` folder
+ * Run `bower install --allow-root` to install the required front-end packages
+ * Edit `tcampeu-theme/bower_components/linea-io/linea.css` and add `../` in front of all `fonts/icomoon.eot` urls
+ * Run `gulp` to build
 
+For more info on Sage, see below:
 
 # [Sage](https://roots.io/sage/)
 [![Build Status](https://travis-ci.org/roots/sage.svg)](https://travis-ci.org/roots/sage)
