@@ -33,6 +33,10 @@
   background-color: $blue !important;
   color: white !important;
   height: 40px !important;
+
+  &:hover {
+    color: $blue-light !important;
+  }
 }
 /* Add your own MailChimp form style overrides in your site stylesheet or in this style block.
    We recommend moving this block and the preceding CSS link to the HEAD of your HTML file. */
