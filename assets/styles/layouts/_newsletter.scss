@@ -15,7 +15,12 @@
   padding-left: 0 !important;
 }
 
-.mc-field-group {
+.visible-xs-block.mc-field-group {
+  width: 185px !important;
+  float: left;
+}
+
+.hidden-xs.mc-field-group {
   width: 300px !important;
   float: left;
 }
