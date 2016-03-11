@@ -1,3 +1,26 @@
+.registration-banner {
+  font-size: 24px;
+  line-height: 80px;
+  font-family: $font-family-serif;
+}
+
+.btn-registration-banner {
+  background-color: white;
+  color: $green;
+  font-size: 24px;
+  border: solid $green 1px;
+  border-radius: 10px;
+  padding: 5px 40px;
+
+  span {
+    font-size: 26px;
+  }
+
+  &:hover {
+    color: $green-dark;
+  }
+}
+
 .big-h1 {
   font-size: 2.5em;
   padding: 10px 0;

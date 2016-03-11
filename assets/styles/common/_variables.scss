@@ -20,6 +20,7 @@ $red-light:         lighten($red, 50%) !default;
 
 $green:             #09d35f !default; 
 $green-light:       lighten($green, 50%) !default;
+$green-dark:        darken($green, 10%) !default;
 
 $blue:              #0b4ea2 !default; 
 $blue-light:        lighten($blue, 50%) !default;
