@@ -16,18 +16,31 @@
               <?php
                 $args = array( 'posts_per_page' => 4, 'post__not_in' => array(get_the_ID()), 'category_name' => $category[0]->name );
                 $myposts = get_posts( $args );
-                foreach ( $myposts as $post ) : setup_postdata( $post );
               ?>
-                <div class="col-md-6">
+              <div class="col-md-6">
+                <?php
+                  for ($x = 0; $x < 2; $x++) :
+                    $post = $myposts[$x];
+                    setup_postdata($post);
+                ?>
                   <?php get_template_part('templates/content', 'post'); ?>
-                </div>
-              <?php endforeach;
+                <?php endfor; ?>
+              </div>
+              <div class="col-md-6">
+                <?php
+                  for ($x = 2; $x < 4; $x++) :
+                    $post = $myposts[$x];
+                    setup_postdata($post);
+                ?>
+                  <?php get_template_part('templates/content', 'post'); ?>
+                <?php endfor; ?>
+              </div>
+              <?php
                 wp_reset_postdata();
               ?>
             </div>
             <?php wp_link_pages(['before' => '<nav class="page-nav"><p>' . __('Pages:', 'sage'), 'after' => '</p></nav>']); ?>
           </footer>
-          <?php comments_template('/templates/comments.php'); ?>
         </article>
       <?php endwhile; ?>
     </div>
