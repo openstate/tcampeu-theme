@@ -13,7 +13,7 @@
             <form action="//openstate.us4.list-manage.com/subscribe/post?u=03355fd4f1a7935cae63b21aa&amp;id=c42d261fab" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
               <div id="mc_embed_signup_scroll">
                 <div class="visible-xs-block mc-field-group">
-                  <input type="email" placeholder="Email address" name="EMAIL" class="required email" id="mce-EMAIL">
+                  <input type="email" placeholder="Email address" name="EMAIL-hidden" class="required email" id="mce-EMAIL-hidden">
                 </div>
                 <div class="hidden-xs mc-field-group">
                   <input type="email" placeholder="Email address" name="EMAIL" class="required email" id="mce-EMAIL">
