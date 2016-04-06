@@ -21,13 +21,16 @@
         // JavaScript to be fired on all pages
         // Change the "name" and "id" attributes of Mailchimp's input field if
         // it is hidden (we duplicate the input field for responsive purposes)
-        var hide_hidden_mc_attrs = function() {
+        $('.mc-field-group input:hidden').attr("id", "mce-EMAIL-hidden");
+        $('.mc-field-group input:visible').attr("id", "mce-EMAIL");
+        $('.mc-field-group input:hidden').attr("name", "EMAIL-hidden");
+        $('.mc-field-group input:visible').attr("name", "EMAIL");
+        $(window).resize(function() {
           $('.mc-field-group input:hidden').attr("id", "mce-EMAIL-hidden");
           $('.mc-field-group input:visible').attr("id", "mce-EMAIL");
           $('.mc-field-group input:hidden').attr("name", "EMAIL-hidden");
           $('.mc-field-group input:visible').attr("name", "EMAIL");
-        };
-        $(window).resize(hide_hidden_mc_attrs());
+        });
       },
       finalize: function() {
         // JavaScript to be fired on all pages, after page specific JS is fired
