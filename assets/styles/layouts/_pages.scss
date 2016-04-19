@@ -1,4 +1,8 @@
 .page-green {
+  .page-header {
+    margin-top: 10px;
+  }
+
   h3, h4 {
     color: $green;
   }
@@ -18,4 +22,57 @@
   &:hover {
     color: $blue-light;
   }
+}
+
+/*sticky nav section*/
+.sticky-nav {
+    font-family: $font-family-serif;
+    font-size: 1.2em;
+    z-index: 1000;
+    background: $white;
+    border: none;
+    margin-bottom: 0;
+}
+
+.visible-lg-block.getsticky {
+    top: 0;
+/* http://stackoverflow.com/questions/2861247/center-aligning-a-fixed-position-div */
+    position: fixed;
+    left: 50%;
+    transform: translate(-50%, 0);
+    width: 100%;
+}
+
+.hidden-lg.getsticky {
+    top: 50px;
+/* http://stackoverflow.com/questions/2861247/center-aligning-a-fixed-position-div */
+    position: fixed;
+    left: 50%;
+    transform: translate(-50%, 0);
+    width: 100%;
+}
+
+.nav-pills {
+    text-align: center;
+    margin-top: 15px;
+}
+
+.sticky-nav-item{
+    display: inline-block !important;
+    float: none !important;
+}
+
+.nav-pills > li.active > a, .nav-pills > li.active > a:hover, .nav-pills > li.active > a:focus {
+    color: #fff;
+    background-color: $blue;
+    border: 1px solid $blue;
+}
+
+.page-scroll {
+    border: 1px solid $blue;
+    padding: 5px 10px;
+    border-radius: 8px;
+    margin-right: 10px;
+    margin-bottom: 5px;
+    display: inline-block;
 }

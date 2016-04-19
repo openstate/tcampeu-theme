@@ -31,6 +31,39 @@
           $('.mc-field-group input:hidden').attr("name", "EMAIL-hidden");
           $('.mc-field-group input:visible').attr("name", "EMAIL");
         });
+
+        function fixDiv() {
+          var $div = $(".sticky-nav");
+          var $offset = 0;
+
+          if ($(window).width() < 1200) {
+            $offset = 50;
+          }
+          else {
+            $offset = 0;
+          }
+
+          if ($(window).scrollTop() > $div.data("top") - $offset) {
+            $('.sticky-nav').addClass("getsticky");
+          }
+          else {
+            $('.sticky-nav').removeClass("getsticky");
+          }
+        }
+
+        $(".sticky-nav").data("top", $(".sticky-nav").offset().top); // set original position on load
+        $(window).scroll(fixDiv);
+
+        //jQuery for page scrolling feature - requires jQuery Easing plugin
+        $(function() {
+          $('a.page-scroll').bind('click', function(event) {
+            var $anchor = $(this);
+            $('html, body').stop().animate({
+              scrollTop: $($anchor.attr('href')).offset().top
+            }, 1500, 'easeInOutExpo');
+            event.preventDefault();
+          });
+        });
       },
       finalize: function() {
         // JavaScript to be fired on all pages, after page specific JS is fired
