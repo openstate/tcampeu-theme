@@ -3,6 +3,10 @@
   <meta http-equiv="x-ua-compatible" content="ie=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="author" content="Open State Foundation">
+  <meta property="og:title" content="TransparencyCamp Europe - Unconference and App Competition" />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://transparencycamp.eu/" />
+  <meta property="og:image" content="http://ia.media-imdb.com/images/rock.jpg" />
   <?php wp_head(); ?>
   <script>
     (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
