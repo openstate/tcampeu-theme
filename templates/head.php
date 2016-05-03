@@ -5,7 +5,6 @@
   <meta name="author" content="Open State Foundation">
   <meta property="og:title" content="TransparencyCamp Europe - Unconference and App Competition" />
   <meta property="og:type" content="website" />
-  <meta property="og:url" content="https://transparencycamp.eu/" />
   <meta property="og:image" content="https://transparencycamp.eu/wp-content/themes/tcampeu-theme/dist/images/tcampeu-logo-ogimage.png" />
   <?php wp_head(); ?>
   <script>
