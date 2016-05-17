@@ -12,35 +12,37 @@
     <br>
     <div class="col-md-10 col-md-offset-1">
       <div class="row bg-white">
-          <div class="col-md-10 col-md-offset-1">
-            <div class="row">
-              <div class="col-md-6">
-                <?php
-                  $args = array( 'posts_per_page' => 2, 'category_name' => 'News' );
-                  $myposts = get_posts( $args );
-                  foreach ( $myposts as $post ) : setup_postdata( $post );
-                ?>
-                  <?php get_template_part('templates/content', 'post'); ?>
-                <?php endforeach; 
-                  wp_reset_postdata();
-                ?>
-              </div>
-                    
-              <div class="col-md-6">
-                <?php
-                  $args = array( 'posts_per_page' => 2, 'category_name' => 'Datablog' );
-                  $myposts = get_posts( $args );
-                  foreach ( $myposts as $post ) : setup_postdata( $post );
-                ?>
-                  <?php get_template_part('templates/content', 'post'); ?>
-                <?php endforeach; 
-                  wp_reset_postdata();
-                ?>
-              </div>
+        <div class="col-md-10 col-md-offset-1">
+          <div class="row">
+            <div class="col-md-6">
+              <?php
+                $args = array( 'posts_per_page' => 2, 'category_name' => 'News' );
+                $myposts = get_posts( $args );
+                foreach ( $myposts as $post ) : setup_postdata( $post );
+              ?>
+                <?php get_template_part('templates/content', 'post'); ?>
+              <?php endforeach;
+                wp_reset_postdata();
+              ?>
+            </div>
+
+            <div class="col-md-6">
+              <?php
+                $args = array( 'posts_per_page' => 2, 'category_name' => 'Datablog' );
+                $myposts = get_posts( $args );
+                foreach ( $myposts as $post ) : setup_postdata( $post );
+              ?>
+                <?php get_template_part('templates/content', 'post'); ?>
+              <?php endforeach;
+                wp_reset_postdata();
+              ?>
             </div>
           </div>
+        </div>
       </div>
     </div>
   </div>
+  <br>
+    <p style="text-align:right"><b><a href="https://transparencycamp.eu/news-datablogs/">News &amp; Datablogs archive</a></b></p>
   <br>
 </div>
