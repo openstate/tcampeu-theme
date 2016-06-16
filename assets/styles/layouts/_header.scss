@@ -6,10 +6,14 @@
 .header-logo {
   background-image: url("../images/witvlak.svg");
   background-repeat: no-repeat;
+  font-size: 18px;
+
+  a {
+    display: inline-block;
+  }
 }
 
 .header-logo {
-  font-size: 18px;
 }
 
 .current-menu-item,

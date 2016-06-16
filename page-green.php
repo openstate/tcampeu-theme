@@ -13,14 +13,14 @@
          <li class="hidden active">
            <a class="page-scroll" href="#main-content"></a>
          </li>
+          <li class="sticky-nav-item">
+           <a class="page-scroll" href="#schedule">Schedule</a>
+         </li>
          <li class="sticky-nav-item">
            <a class="page-scroll" href="#info">Info</a>
          </li>
           <li class="sticky-nav-item">
            <a class="page-scroll" href="#register">Register</a>
-         </li>
-          <li class="sticky-nav-item">
-           <a class="page-scroll" href="#schedule">Schedule</a>
          </li>
        </ul>
      </nav>
@@ -30,14 +30,14 @@
          <li class="hidden active">
            <a class="page-scroll" href="#main-content"></a>
          </li>
+          <li class="sticky-nav-item">
+           <a class="page-scroll" href="#schedule">Schedule</a>
+         </li>
          <li class="sticky-nav-item">
            <a class="page-scroll" href="#info">Info</a>
          </li>
           <li class="sticky-nav-item">
            <a class="page-scroll" href="#register">Register</a>
-         </li>
-          <li class="sticky-nav-item">
-           <a class="page-scroll" href="#schedule">Schedule</a>
          </li>
        </ul>
      </nav>
