@@ -6,6 +6,10 @@
   <meta property="og:title" content="TransparencyCamp Europe - Unconference and App Competition" />
   <meta property="og:type" content="website" />
   <meta property="og:image" content="https://transparencycamp.eu/wp-content/themes/tcampeu-theme/dist/images/tcampeu-logo-ogimage.png" />
+  <meta property="og:image:secure_url" content="https://transparencycamp.eu/wp-content/themes/tcampeu-theme/dist/images/tcampeu-logo-ogimage.png" />
+  <meta property="og:image:type" content="image/png" />
+  <meta property="og:image:width" content="2104" />
+  <meta property="og:image:height" content="1102" />
   <?php wp_head(); ?>
   <script>
     (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
