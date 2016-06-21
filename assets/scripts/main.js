@@ -51,8 +51,10 @@
           }
         }
 
-        $(".sticky-nav").data("top", $(".sticky-nav").offset().top); // set original position on load
-        $(window).scroll(fixDiv);
+        if ($(".sticky-nav").length) {
+          $(".sticky-nav").data("top", $(".sticky-nav").offset().top); // set original position on load
+          $(window).scroll(fixDiv);
+        }
 
         //jQuery for page scrolling feature - requires jQuery Easing plugin
         $(function() {
